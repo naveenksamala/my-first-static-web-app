@@ -5,12 +5,95 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <meta name="google-site-verification" content="_mN1QSwrSXgInOMYvW-VAcRm0aXb9dHMkEnVFMiYLds" />
   <title>Vanilla JavaScript App</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+    
+    html {
+      box-sizing: border-box;
+    }
+    
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+    
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+    
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+    
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-color: #474e5d;
+      color: white;
+    }
+    
+    .container {
+      padding: 0 16px;
+    }
+    
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .title {
+      color: grey;
+    }
+    
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    .button:hover {
+      background-color: #555;
+    }
+    
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+    </style>
 </head>
 
 <body>
   <main>
-    <h1>Vanilla JavaScript App</h1>
+    <div class="about-section">
+      <h1>About Us</h1>      
+      <p>Hero Tools was founded in 2020 as a way to show off the Opti B2B Commerce Cloud platform.  Hero is designed as a branded manufacturer and has the common features of a branded manufacturer embedded in it. Hero specializes in power tools including nailers, staplers, grinders and rotary hammers.</p>
+      <p>        
+        Address:      
+        119 5th Ave 7th floor        
+        New York, NY 10003, USA        
+        Phone: +1 603 594 0249
+      </p>
+    </div>
+    
+    <div class="sc-bczRLJ eNQzbe social-links"><div class="sc-bczRLJ btoIxZ link-wrapper"><a class="StyledButton--1y32st frUcpL StyledClickable--49spz0 dGbZX social-link" tabindex="0" href="https://www.facebook.com/herotoolfb" target=""><span title="Facebook" class="IconWrapper--1y9kqb7 gOVkzQ StyledIcon--1ysp138 iNBqUf"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img"><title>Facebook</title><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></span><span class="TypographyStyle--11lquxl dgqwaG StyledTypography--14dgqsg kSLFTI">Facebook</span></a></div><div class="sc-bczRLJ btoIxZ link-wrapper"><a class="StyledButton--1y32st frUcpL StyledClickable--49spz0 dGbZX social-link" tabindex="0" href="https://www.instagram.com/herotoolig" target=""><span title="Instagram" class="IconWrapper--1y9kqb7 gOVkzQ StyledIcon--1ysp138 iNBqUf"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img"><title>Instagram</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg></span><span class="TypographyStyle--11lquxl dgqwaG StyledTypography--14dgqsg kSLFTI">Instagram</span></a></div><div class="sc-bczRLJ btoIxZ link-wrapper"><a class="StyledButton--1y32st frUcpL StyledClickable--49spz0 dGbZX social-link" tabindex="0" href="https://www.twitter.com/herotoolstw" target=""><span title="Twitter" class="IconWrapper--1y9kqb7 gOVkzQ StyledIcon--1ysp138 iNBqUf"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img"><title>Twitter</title><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></span><span class="TypographyStyle--11lquxl dgqwaG StyledTypography--14dgqsg kSLFTI">Twitter</span></a></div><div class="sc-bczRLJ btoIxZ link-wrapper"><a class="StyledButton--1y32st frUcpL StyledClickable--49spz0 dGbZX social-link" tabindex="0" href="https://www.youtube.com/herotoolyou" target=""><span title="YouTube" class="IconWrapper--1y9kqb7 gOVkzQ StyledIcon--1ysp138 iNBqUf"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img"><title>YouTube</title><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></span><span class="TypographyStyle--11lquxl dgqwaG StyledTypography--14dgqsg kSLFTI">YouTube</span></a></div><div class="sc-bczRLJ btoIxZ link-wrapper"><a class="StyledButton--1y32st frUcpL StyledClickable--49spz0 dGbZX social-link" tabindex="0" href="https://www.blogger.com/" target=""><span title="Blogger" class="IconWrapper--1y9kqb7 gOVkzQ StyledIcon--1ysp138 iNBqUf"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img"><title>Blogger</title><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></span><span class="TypographyStyle--11lquxl dgqwaG StyledTypography--14dgqsg kSLFTI">Blogger</span></a></div><div class="sc-bczRLJ btoIxZ link-wrapper"><a class="StyledButton--1y32st frUcpL StyledClickable--49spz0 dGbZX social-link" tabindex="0" href="https://www.linkedin.com/herotoolsli" target=""><span title="Linkedin" class="IconWrapper--1y9kqb7 gOVkzQ StyledIcon--1ysp138 iNBqUf"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img"><title>Linkedin</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></span><span class="TypographyStyle--11lquxl dgqwaG StyledTypography--14dgqsg kSLFTI">Linkedin</span></a></div><div class="sc-bczRLJ btoIxZ link-wrapper"><a class="StyledButton--1y32st frUcpL StyledClickable--49spz0 dGbZX social-link" tabindex="0" href="https://vimeo.com/" target=""><span title="Vimeo" class="IconWrapper--1y9kqb7 gOVkzQ StyledIcon--1ysp138 iNBqUf"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img"><title>Vimeo</title><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg></span><span class="TypographyStyle--11lquxl dgqwaG StyledTypography--14dgqsg kSLFTI">Vimeo</span></a></div></div>
+
   </main>
 </body>
 
